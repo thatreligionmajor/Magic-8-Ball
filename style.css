@@ -80,8 +80,8 @@ img {
 
   /* Mobile */
 
-/* @media (max-width: 576px) { 
-  button {
-    margin-top: 2em;
+@media (max-width: 576px) { 
+  #ball {
+    max-height: 30dvh;
   }
-} */
+}
