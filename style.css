@@ -1,32 +1,32 @@
 body {
-    background-image: linear-gradient(to bottom, #212141, #282849, #2f2f50, #373758, #3e3e60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 99dvh;
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to bottom, #212141, #282849, #2f2f50, #373758, #3e3e60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 99dvh;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
 }
 
 .center {
-    text-align: center;
-    padding-top: 2em;
+  text-align: center;
+  padding-top: 3em;
 }
 
 h1 {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 button {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 img {
-    padding-left: 2em;
-    cursor: pointer;
+  padding-left: 2em;
+  cursor: pointer;
 }
 
 #message {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 /* Animations */
@@ -36,43 +36,52 @@ img {
 }
 
 @keyframes shake {
-    0% { transform: translate(4px, 4px) rotate(0deg);}
-    10% { transform: translate(-4px, 4px) rotate(0deg);}
-    20% { transform: translate(-7px, 0px) rotate(0deg);}
-    30% { transform: translate(7px, 4px) rotate(0deg);}
-    40% { transform: translate(4px, -4px) rotate(0deg);}
-    50% { transform: translate(-4px, 4px) rotate(0deg);}
-    60% { transform: translate(-7px, 4px) rotate(0deg);}
-    70% { transform: translate(7px, 4px) rotate(0deg);}
-    80% { transform: translate(-4px, -4px) rotate(0deg);}
-    90% { transform: translate(4px, 4px) rotate(0deg);}
-    100% { transform: translate(4px, -4px) rotate(0deg);}
+  0% { transform: translate(4px, 4px) rotate(0deg);}
+  10% { transform: translate(-4px, 4px) rotate(0deg);}
+  20% { transform: translate(-7px, 0px) rotate(0deg);}
+  30% { transform: translate(7px, 4px) rotate(0deg);}
+  40% { transform: translate(4px, -4px) rotate(0deg);}
+  50% { transform: translate(-4px, 4px) rotate(0deg);}
+  60% { transform: translate(-7px, 4px) rotate(0deg);}
+  70% { transform: translate(7px, 4px) rotate(0deg);}
+  80% { transform: translate(-4px, -4px) rotate(0deg);}
+  90% { transform: translate(4px, 4px) rotate(0deg);}
+  100% { transform: translate(4px, -4px) rotate(0deg);}
 }
 
 @keyframes fade-down {
-    0% {
-      opacity: 0;
-      transform: translateY(-1rem) scale(0.9);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0rem) scale(1);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem) scale(0.9);
   }
-  .fade-down {
-    animation: fade-down 0.5s  backwards;
+  100% {
+    opacity: 1;
+    transform: translate(0rem) scale(1);
   }
+}
+.fade-down {
+  animation: fade-down 0.5s  backwards;
+}
 
-  /* @keyframes fade-up {
-    0% {
-      opacity: 0;
-      transform: translateY(1rem) scale(0.9);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0rem) scale(1);
-    }
+/* @keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.9);
   }
-  .fade-up {
-    animation: fade-up 0.5s 0.4s backwards;
-  } */
+  100% {
+    opacity: 1;
+    transform: translate(0rem) scale(1);
+  }
+}
+.fade-up {
+  animation: fade-up 0.5s 0.4s backwards;
+} */
+
+
+  /* Mobile */
+
+@media (max-width: 576px) { 
+  #message {
+    /* font-size: 3rem; */
+  }
+}
