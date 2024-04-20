@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("message").classList.add("fade-up");
+});
+
+
+
+
+
+
+
 function shake() {
     var ball = document.getElementById("ball");
     var messageText = document.getElementById("message");
@@ -45,3 +55,32 @@ function getFortune() {
     newMessage.innerHTML = "\""+fortune+"\""
     parent.appendChild(newMessage)
 };
+
+// Mobile Functionality
+
+function mobileShake(element) {
+    var ball = document.getElementById("ball");
+    var messageText = document.getElementById("message");
+
+    if(messageText != null) {
+        messageText.parentNode.removeChild(messageText);
+    }
+
+    ball.classList.add("shake");
+
+    setTimeout(function(){ball.classList.remove("shake");}, 1000 )
+    setTimeout(function(){getFortune();}, 1000 )
+}
+
+document.addEventListener("touchstart", e => {
+    if(e.target.id === "ball") {
+    e.preventDefault();
+    }
+})
+
+document.addEventListener("touchend", e => {
+    e.preventDefault();
+    if(e.target.id === "ball") {
+        (mobileShake(e.target));
+    }
+})

@@ -63,7 +63,7 @@ img {
   animation: fade-down 0.5s  backwards;
 }
 
-/* @keyframes fade-up {
+@keyframes fade-up {
   0% {
     opacity: 0;
     transform: translateY(1rem) scale(0.9);
@@ -75,13 +75,13 @@ img {
 }
 .fade-up {
   animation: fade-up 0.5s 0.4s backwards;
-} */
+}
 
 
   /* Mobile */
 
-@media (max-width: 576px) { 
+/* @media (max-width: 576px) { 
   #message {
-    /* font-size: 3rem; */
+
   }
-}
+} */
