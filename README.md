@@ -5,10 +5,10 @@
 a simple JS script that shakes a magic 8 ball, revealing your fortune at the click of a button
 
 ## Preview
-[Watch the Demo](https://github.com/thatreligionmajor/Magic-8-Ball/assets/112668448/1c4d0c89-4271-4a4c-ba4d-30747ac67f39)
+[🎥 Watch the Demo](https://github.com/thatreligionmajor/Magic-8-Ball/assets/112668448/1c4d0c89-4271-4a4c-ba4d-30747ac67f39)
 
 ## Try Me Out Online
-[🎱 Magic 8 Ball](https://magic-8-ball-amber.vercel.app/){:target="_blank"}
+[🎱 Magic 8 Ball](https://magic-8-ball-amber.vercel.app/)
 
 ## Technologies
 
