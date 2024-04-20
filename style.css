@@ -81,7 +81,7 @@ img {
   /* Mobile */
 
 @media (max-width: 576px) { 
-  #ball {
-    height: 50dvh;
+  button {
+    margin-top: 2em;
   }
 }
