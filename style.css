@@ -80,8 +80,8 @@ img {
 
   /* Mobile */
 
-/* @media (max-width: 576px) { 
-  #message {
-
+@media (max-width: 576px) { 
+  #ball {
+    height: 50dvh;
   }
-} */
+}
