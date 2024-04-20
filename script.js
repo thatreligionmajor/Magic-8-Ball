@@ -58,6 +58,8 @@ function getFortune() {
 
 // Mobile Functionality
 
+// Mobile Shake Ball
+
 function mobileShake(element) {
     var ball = document.getElementById("ball");
     var messageText = document.getElementById("message");
@@ -84,3 +86,18 @@ document.addEventListener("touchend", e => {
         (mobileShake(e.target));
     }
 })
+
+// Mobile Shake Button
+
+document.addEventListener("touchstart", e => {
+    if (e.target.id === "button") {
+        e.preventDefault();
+    }
+});
+
+document.addEventListener("touchend", e => {
+    e.preventDefault();
+    if (e.target.id === "button") {
+        mobileShake(e.target);
+    }
+});

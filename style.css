@@ -76,12 +76,3 @@ img {
 .fade-up {
   animation: fade-up 0.5s 0.4s backwards;
 }
-
-
-  /* Mobile */
-
-@media (max-width: 576px) { 
-  /* #ball {
-    max-height: 30dvh;
-  } */
-}
