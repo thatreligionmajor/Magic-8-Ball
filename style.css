@@ -81,7 +81,7 @@ img {
   /* Mobile */
 
 @media (max-width: 576px) { 
-  #ball {
+  /* #ball {
     max-height: 30dvh;
-  }
+  } */
 }
