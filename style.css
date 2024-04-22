@@ -76,3 +76,11 @@ img {
 .fade-up {
   animation: fade-up 0.5s 0.4s backwards;
 }
+
+/* Mobile Styling */
+
+/* @media (max-width: 576px) { 
+  h1 {
+
+  }
+ } */
